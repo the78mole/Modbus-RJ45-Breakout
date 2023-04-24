@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Modbus-RJ45-Breakout")
+    (date "2023-04-24")
+    (rev "0.0.1")
+    (company "the78mole")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -1177,8 +1184,8 @@
     (in_bom yes) (on_board yes)
     (uuid 14c667e2-48bf-486f-835f-2bfc8b1b68a9)
     (property "Reference" "R3" (id 0) (at 225.425 72.39 90))
-    (property "Value" "" (id 1) (at 220.98 72.39 90))
-    (property "Footprint" "" (id 2) (at 222.885 72.39 0)
+    (property "Value" "560" (id 1) (at 220.98 72.39 90))
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 222.885 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 222.885 72.39 0)
@@ -1301,8 +1308,8 @@
     (in_bom yes) (on_board yes)
     (uuid 70ca1735-d74d-401d-8795-b62e786b547a)
     (property "Reference" "R2" (id 0) (at 225.425 38.1 90))
-    (property "Value" "" (id 1) (at 220.98 38.1 90))
-    (property "Footprint" "" (id 2) (at 222.885 38.1 0)
+    (property "Value" "560" (id 1) (at 220.98 38.1 90))
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 222.885 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 222.885 38.1 0)
